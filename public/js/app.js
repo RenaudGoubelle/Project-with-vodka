@@ -78,10 +78,10 @@ class Component extends App{
           <div class="card">
             <div class="card-image">
               <img src="http://res.news.ifeng.com/79149b265eb1d598/2011/0719/rdn_4e2529fb9cfc3.jpg">
-              <span class="card-title">KV-2(The bunker-buster)</span>
+              <span class="card-title" style="color:#ff0000;">KV-2(The bunker-buster)</span>
             </div>
             <div class="card-content">
-              <p>The Russo-Finnish war proved the soundness of the decision to manufacture the KV-1.</p>
+              <p >The Russo-Finnish war proved the soundness of the decision to manufacture the KV-1.</p>
             </div>
             <div class="card-action">
               <a href="https://google.com" id="update">UPDATE</a>
