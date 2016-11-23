@@ -25,7 +25,9 @@ class Component extends App{
 		this.reRender(`
   
   <nav>
-    <div class="nav-wrapper">
+  <div class="nav-wrapper grey darken-10">
+   <div class="row">
+     <div class="col s10 m20"> 
       <a href="#" class="brand-logo">Tankpedia</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="">List of Tanks</a></li>
@@ -34,58 +36,57 @@ class Component extends App{
       </ul>
     </div>
   </nav>
-  
-      <div class="row">
+   <div class="row">
+     
 
-        <div class="col s10 m7">
+        <div class="col s6 m6">
           <div class="card">
             <div class="card-image">
               <img src="http://armedforcesmuseum.com/wp-content/uploads/2012/04/Tank-M4-Sherman.jpg">
               <span class="card-title">M4 Sherman</span>
             </div>
             <div class="card-content">
-              <p>The American M4 Sherman Medium Tank formed the backbone of the World War 2 Allied armored offensive and went on to see extended action in the following Korean War.</p>
+              <p>The American M4 Sherman Medium Tank formed the backbone of the World War 2 Allied armored offensive.</p>
             </div>
             <div class="card-action">
-              <a href="https://google.com" >UPDATE</a>
-              <a href="https://google.com">DELETE</a>
-              <a href="https://google.com">MORE</a>
+              <a href="https://google.com" id="update">UPDATE</a>
+              <a href="https://google.com" id="delete">DELETE</a>
+              <a href="https://google.com" id="more">MORE</a>
             </div>
           </div>
         </div>
-      </div>
-          <div class="row">
-        <div class="col s10 m7">
+     
+         
+        <div class="col s9 m6">
           <div class="card">
             <div class="card-image">
               <img src="http://www.tanks-encyclopedia.com/ww2/US/Light/M3/M3_Stuart.png">
               <span class="card-title">M3 Stuart</span>
             </div>
             <div class="card-content">
-              <p>American light tank development in the USA was confounded with tank development itself. In September 1939, the US army was ill-prepared regarding its tanks types, training and tactics.</p>
+              <p>American light tank development in the USA was confounded with tank development itself.</p>
             </div>
             <div class="card-action">
-              <a href="https://google.com" >UPDATE</a>
-              <a href="https://google.com">DELETE</a>
-              <a href="https://google.com">MORE</a>
+              <a href="https://google.com" id="update" >UPDATE</a>
+              <a href="https://google.com" id="delete">DELETE</a>
+              <a href="https://google.com" id="more">MORE</a>
             </div>
           </div>
         </div>
-      </div>   
- <div class="row">
+    </div>
         <div class="col s10 m7">
           <div class="card">
             <div class="card-image">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkekCKBvDfUrq4F2vse_qnNuK2j-aJAqUj5cJdvaIhmTnujZFHmw">
+              <img src="http://res.news.ifeng.com/79149b265eb1d598/2011/0719/rdn_4e2529fb9cfc3.jpg">
               <span class="card-title">KV-2(The bunker-buster)</span>
             </div>
             <div class="card-content">
               <p>The Russo-Finnish war proved the soundness of the decision to manufacture the KV-1.</p>
             </div>
             <div class="card-action">
-              <a href="https://google.com">UPDATE</a>
-              <a href="https://google.com">DELETE</a>
-              <a href="https://google.com">MORE</a>
+              <a href="https://google.com" id="update">UPDATE</a>
+              <a href="https://google.com" id="delete">DELETE</a>
+              <a href="https://google.com" id="more">MORE</a>
             </div>
           </div>
         </div>
