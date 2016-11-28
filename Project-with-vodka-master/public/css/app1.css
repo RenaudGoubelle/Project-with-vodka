@@ -1,0 +1,41 @@
+.body { 
+    background-image: url("http://cdn.wallpapersafari.com/43/80/OwxPfl.jpg"  );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.nav-wrapper{
+	
+
+}
+.brand-logo{
+
+}
+.card-big{
+	width:540px;
+	height:540px;
+	
+}
+.card-image{
+	width:540px;
+	height:400px;
+}
+.card-content{
+	
+}
+.right{
+	align= "right";
+}
+
+
+@media (max-width: 990px) {
+  .resizeimg {
+    height: auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .resizeimg {
+    width: auto;
+    height: 350px;
+  }
+}
